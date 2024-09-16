@@ -1,0 +1,20 @@
+{
+    "name": "william/router",
+    "description": "Router template",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William",
+            "email": "william.lonnberg@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^7.0",
+        "phroute/phroute": "^2.2"
+    }
+}
